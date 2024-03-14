@@ -1,3 +1,11 @@
+bash (5.1-6ubuntu1.1) jammy-security; urgency=medium
+
+  * SECURITY UPDATE: heap-buffer overflow in valid parameter_transform
+    - debian/patches/CVE-2022-3715.patch: add extra check to subst.c.
+    - CVE-2022-3715
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Thu, 14 Mar 2024 07:31:47 -0400
+
 bash (5.1-6ubuntu1) jammy; urgency=medium
 
   * Merge with Debian; remaining changes:

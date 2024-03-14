@@ -34,3 +34,4 @@ use-system-texi2html.diff
 bzero.diff
 man-macro-warnings.diff
 man-vx-opts.diff
+CVE-2022-3715.patch
